@@ -49,7 +49,7 @@ export default function Banner() {
             <Grid size={{ lg: 3, md: 6, xs: 12 }}>
               <Box className="banner_image_wrapper">
                 <Image
-                  src="/bannerthird.png"
+                  src="/bannerThird.png"
                   alt="Temple"
                   width={500}
                   height={300}
@@ -86,7 +86,7 @@ export default function Banner() {
             <Grid size={{ lg: 3, md: 6, xs: 12 }}>
               <Box className="banner_image_wrapper">
                 <Image
-                  src="/bannersix.png"
+                  src="/bannerSix.png"
                   alt="Temple"
                   width={500}
                   height={300}
