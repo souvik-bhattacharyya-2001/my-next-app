@@ -98,50 +98,37 @@ export default function Banner() {
         </Container>
 
         {/* Title & description */}
-        <Box
-          sx={{
-            py: 4,
-            px: 2,
-            textAlign: "center",
-          }}
-        >
+        <Box sx={{ py: 4, px: 2, textAlign: "center" }}>
           <Typography
             sx={{
               fontFamily: "'Open Sauce Sans', sans-serif",
               fontWeight: 700,
-              fontStyle: "bold",
-              fontSize: "52px",
+              fontSize: { xs: "28px", sm: "36px", md: "52px" },
               lineHeight: "120%",
-              letterSpacing: 0,
               color: "#384B40",
             }}
           >
             Balinese Day with a Local Family
           </Typography>
         </Box>
+
         <Box
           sx={{
-            width: 768,
-            height: 81,
-            opacity: 1,
+            width: "100%",
+            maxWidth: 768,
             mx: "auto",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            textAlign: "center",
             mb: 4,
-            p: 2,
+            px: 2,
           }}
         >
           <Typography
             sx={{
               fontFamily: "'Open Sauce Sans', sans-serif",
               fontWeight: 400,
-              fontStyle: "normal",
-              fontSize: "18px",
+              fontSize: { xs: "14px", sm: "16px", md: "18px" },
               lineHeight: "150%",
-              letterSpacing: 0,
               color: "#000000",
+              textAlign: "center",
             }}
           >
             Immerse yourself in the heart of Balinese culture by spending a day
@@ -150,6 +137,7 @@ export default function Banner() {
             hospitality.
           </Typography>
         </Box>
+
         {/* Info cards row */}
         <Container fixed>
           <InfoSection />
