@@ -5,13 +5,14 @@ export default function AboutHost() {
     <Box
       sx={{
         width: "100%",
-        minHeight: "581px",
-        px: "64px",
-        py: "169px",
+        minHeight: { xs: "400px", md: "581px" },
+        px: { xs: 2, sm: 4, md: 8 },
+        py: { xs: 8, md: 21 },
         display: "flex",
+        flexDirection: { xs: "column", md: "row" },
         alignItems: "center",
-        justifyContent: "space-between",
-        gap: "80px",
+        justifyContent: { xs: "center", md: "space-between" },
+        gap: { xs: 4, md: 10 },
         backgroundImage: `url('/aboutTheHost.png')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -26,6 +27,7 @@ export default function AboutHost() {
             color: "#FFFFFF",
             fontWeight: 700,
             mb: 2,
+            fontSize: { xs: "24px", sm: "32px", md: "36px" },
           }}
         >
           About the Host
